@@ -1,0 +1,28 @@
+{
+  "name": "reach_test",
+  "version": "1.0.0",
+  "description": "Reach automation test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steviebdesignstraining/Reach_Test.git"
+  },
+  "author": "Stephen Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steviebdesignstraining/Reach_Test/issues"
+  },
+  "homepage": "https://github.com/steviebdesignstraining/Reach_Test#readme",
+  "dependencies": {
+    "cypress": "^5.5.0",
+    "cypress-downloadfile": "^1.2.0",
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^3.1.1"
+  }
+}
